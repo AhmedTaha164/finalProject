@@ -1,0 +1,22 @@
+- hosts: all
+  become: true
+
+  tasks:
+    - name: ensure repository key is installed
+      yum_key:
+        url: https://download.docker.com/linux/centos/gpg
+        state: present
+
+    - name: ensure docker registry is available
+      yum_repository: 
+        repo='deb https://download.docker.com/linux/centos bionic stable' state=present
+
+    - name: ensure docker and dependencies are installed
+      yum: 
+        name=docker-ce 
+        update_cache=yes
+
+    - service:
+        name=docker 
+        state=restarted
+
