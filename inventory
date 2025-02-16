@@ -1,5 +1,5 @@
 [webservers]
-192.168.56.15 ansible_user=vagrant ansible_private_key_file=/var/lib/jenkins/workspace/finalProject/ansible/m01/private_key
-192.168.56.14 ansible_user=vagrant ansible_private_key_file=/var/lib/jenkins/workspace/finalProject/ansible/m02/private_key
+192.168.56.10 ansible_user=vagrant ansible_private_key_file=/var/lib/jenkins/workspace/finalProject/ansible/m01/private_key
+192.168.56.9 ansible_user=vagrant ansible_private_key_file=/var/lib/jenkins/workspace/finalProject/ansible/m02/private_key
 
 
