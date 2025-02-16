@@ -18,3 +18,18 @@
     #  lineinfile: "dest=/etc/default/docker regexp=^DOCKER_OPTS line=DOCKER_OPTS='--insecure-registry 10.11.0.0/16'"
 
     - service: name=docker state=restarted
+
+
+    - name: log into docker hub registry
+      docker_login:
+        username: "ahmedtaha164"
+        password: "dckr_pat_3jnE0WVjlRYemgOjwWvUiep92Yg"
+
+    - name: ensure a container is running
+      docker_container:
+        name: my_container
+        state: started
+        image: "ahmedtaha164/finalproject:V1"
+        pull: true
+        ports:
+          - "5000:5000"  
