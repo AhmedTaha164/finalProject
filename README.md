@@ -46,7 +46,8 @@ This Weather App is a DevOps project that integrates continuous integration, con
 
 9. **Run the Jenkins Pipeline**:
    - Execute the Jenkinsfile to automate the build and deployment process.
-10- You can access website by typing 192.168.56.10:5000 or 192.168.56.9:5000
+10. **Access the website**:
+   - You can access website by typing 192.168.56.10:5000 or 192.168.56.9:5000
 
 ## Screenshots
 ### VM1
