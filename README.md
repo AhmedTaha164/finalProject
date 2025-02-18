@@ -52,10 +52,12 @@ This Weather App is a DevOps project that integrates continuous integration, con
 ## Screenshots
 ### VM1
 ![image](https://github.com/user-attachments/assets/3a8f8360-60f1-467d-bc8b-c9ec01353c35)
+![image](https://github.com/user-attachments/assets/285f906c-e69c-4575-83cf-dd9f49ac8a80)
 
 
 ### VM2
 ![image](https://github.com/user-attachments/assets/f7bb595c-55b3-46d6-aac8-068f94d3737b)
+![image](https://github.com/user-attachments/assets/08c793de-8001-4dd0-afe2-08a03320e205)
 
 
 
